@@ -1,0 +1,38 @@
+form {
+  background-color: rgb(138, 216, 138);
+  width: 75vw;
+  margin: auto;
+}
+#minMaxAvg{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#minMaxAvg input{
+width: 90%;
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+}
+#location input {
+  width: 90%;
+}
+legend {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#minMaxAvg button {
+  background-color: rgb(73, 173, 73);
+  width: 20%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+#minMaxAvg fieldset {
+  margin-bottom: 20px;
+  background-color: lightgreen;
+}

@@ -1,3 +1,4 @@
+import './formcss.css';
 export default function CreateForm({ onCreate }) {
 
     function submitHandler(event) {
@@ -14,12 +15,12 @@ export default function CreateForm({ onCreate }) {
 
             <legend>Create Cookie Stand</legend>
 
-            <div>
+            <div id="location">
                 <label htmlFor="location">Location</label>
                 <input type="text" name="location" />
             </div>
 
-            <div>
+            <div id="minMaxAvg">
 
                 <fieldset>
                     <label htmlFor="min-customers">Minimum Customers per Hour</label>

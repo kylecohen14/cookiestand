@@ -4,6 +4,8 @@ import CreateForm from './components/create-form'
 import ReportTable from './components/report-table'
 import Footer from './components/footer'
 import { hours } from './data'
+import Navbar from './components/navbar';
+
 
 class App extends Component {
 
@@ -22,6 +24,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Header />
         <main>
           <CreateForm onCreate={this.handleCreate} />
