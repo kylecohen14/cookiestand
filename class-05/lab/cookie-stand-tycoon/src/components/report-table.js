@@ -1,3 +1,4 @@
+import './report-table.css';
 export default function ReportTable(props) {
 
     if (props.reports.length === 0) {
@@ -6,6 +7,7 @@ export default function ReportTable(props) {
     const headers = ['Location', ...props.hours, 'Totals'];
 
     return (
+        <div id="table">
         <table>
             <HeaderRow headerValues={headers} />
 
@@ -18,6 +20,7 @@ export default function ReportTable(props) {
             <FooterRow reports={props.reports} />
 
         </table>
+        </div>
     );
 }
 
